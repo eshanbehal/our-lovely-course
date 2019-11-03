@@ -9,6 +9,7 @@ video#bgvideo{
     z-index: -100;
 }
 
+/*
 @media (max-device-width:768px){
     body{
         background: url(https://static.pexels.com/photos/9149/pexels-photo.jpeg) center center fixed;
@@ -18,3 +19,13 @@ video#bgvideo{
         display: none;   
     }
 }
+*/
+
+.navbar-custom{
+    background: #1b3759;
+    font-size: 18px;
+}
+.navbar-custom .navbar-text{
+    color: white;
+}
+
