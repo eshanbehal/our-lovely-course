@@ -52,7 +52,7 @@ video#bgvideo{
     color: #ffffff;
     font-family: 'vollkorn';
 /*    margin: 0;*/
-/*    padding-top: 100px;*/
+    padding-top: 100px;
 }
 #about h2{
     font-weight: bold;
@@ -63,6 +63,44 @@ video#bgvideo{
 }
 .aboutImage{
     height: 120px;
+}
+#promise{
+    padding-top: 100px;
+    font-family: vollkorn;
+}
+#myCarousel{
+    width: 60%;
+    margin: 0 auto;
+}
+.carousel-inner .item img{
+    height: 400px;
+    margin: 0 auto;
+}
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    height: 200px;
+}
+
+@media (max-width:768px){
+    .carousel-inner .item img{
+        height: 300px;   
+    }
+    .carousel-inner h2{
+        font-size: 23px;   
+    }
+}
+@media (max-width:400px){
+    .carousel-inner .item img{
+        height: 200px;   
+    }
+    .carousel-inner h2{
+        font-size: 17px;   
+    }
+    .navbar-brand{
+        font-size: 12px;   
+    }
 }
 
 .navbar-custom{
