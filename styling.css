@@ -1,5 +1,5 @@
 .body{
-    font-family: 'vollkorn'; ,serif;
+    font-family: 'vollkorn' ,serif;
     position: relative;
 }
 video#bgvideo{
@@ -26,6 +26,7 @@ video#bgvideo{
     color: #ffffff;
     padding: 15%;
     font-family: 'vollkorn';
+    margin-bottom: 0;
 }
 #home h1{
     margin-bottom: 30px;
@@ -74,13 +75,16 @@ video#bgvideo{
 }
 .carousel-inner .item img{
     height: 400px;
-    margin: 0 auto;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 2px solid transparent;
 }
 .carousel-caption{
     position: relative;
     left: auto;
     right: auto;
     height: 200px;
+/*    border: 5px solid;*/
 }
 
 @media (max-width:768px){
