@@ -1,5 +1,5 @@
 .body{
-    font-family: 'Vollkorn',serif;
+    font-family: 'vollkorn'; ,serif;
     position: relative;
 }
 video#bgvideo{
@@ -20,6 +20,29 @@ video#bgvideo{
     }
 }
 */
+#home{
+    background: transparent;
+    text-align: center;
+    color: #ffffff;
+    padding: 15%;
+    font-family: 'vollkorn';
+}
+#home h1{
+    margin-bottom: 30px;
+}
+#home h2{
+    margin-bottom: 50px;
+}
+#home .btn{
+    background-color: rgb(29, 167, 179);
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+#home .btn:hover{
+    background-color: rgba(29, 167, 179, 0.5);
+}
 
 .navbar-custom{
     background: #1b3759;
