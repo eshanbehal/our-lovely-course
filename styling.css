@@ -43,6 +43,12 @@ video#bgvideo{
 #home .btn:hover{
     background-color: rgba(29, 167, 179, 0.5);
 }
+#about{
+    background: transparent;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'vollkorn';
+}
 
 .navbar-custom{
     background: #1b3759;
