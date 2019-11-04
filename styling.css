@@ -43,11 +43,26 @@ video#bgvideo{
 #home .btn:hover{
     background-color: rgba(29, 167, 179, 0.5);
 }
+.container{
+    height: 1000px;
+}
 #about{
     background: transparent;
     text-align: center;
     color: #ffffff;
     font-family: 'vollkorn';
+    margin: 0;
+/*    padding-top: 100px;*/
+}
+#about h2{
+    font-weight: bold;
+}
+#about p{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.aboutImage{
+    height: 120px;
 }
 
 .navbar-custom{
