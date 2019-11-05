@@ -116,6 +116,8 @@
     margin-top: 150px;
 }
 .navbar-custom {
+    font-size: 18px;
+    font-family: vollkorn;
   background-color: #1b3759;
   border-color: #132740;
   background-image: -webkit-gradient(linear, left 0%, left 100%, from(#274f80), to(#1b3759));
@@ -126,7 +128,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff274f80', endColorstr='#ff1b3759', GradientType=0);
 }
 .navbar-custom .navbar-brand {
-  color: #c0c0c0;
+  color: #fff;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus {
@@ -134,7 +136,7 @@
   background-color: transparent;
 }
 .navbar-custom .navbar-text {
-  color: #c0c0c0;
+  color: #fff;
 }
 .navbar-custom .navbar-nav > li:last-child > a {
   border-right: 1px solid #132740;
