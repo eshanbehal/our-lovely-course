@@ -10,6 +10,16 @@
     z-index: -100;
 }
 
+@media (max-width:768px){
+    body{
+        background: url(https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center center fixed;
+        background-size: cover;
+    }
+    #bgvideo{
+        display: none;   
+    }
+}
+/*
 @media (max-device-width:768px){
     body{
         background: url(https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center center fixed;
@@ -19,6 +29,7 @@
         display: none;   
     }
 }
+*/
 #home{
     background: transparent;
     text-align: center;
